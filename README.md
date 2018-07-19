@@ -9,8 +9,8 @@ muggle-numbers.py - script to avoid magic numbers in your code
 
 Example:
 
-```
-muggle-numbers.py 3 12 89 0
+```bash
+>muggle-numbers.py 3 12 89 0
 2 * 2 + 2 / 2
 2 * 2 * 2 * 2 + 2 * 2 * 2
 2 * 2 * 2 * 2 * 2 * 2 * 2 + 2 * 2 * 2 * 2 * 2 + 2 * 2 * 2 * 2 + 2 / 2

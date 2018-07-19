@@ -16,7 +16,7 @@ def get_muggle_expr(number):
             if order == 1:
                 part = "2 / 2"
             else:
-                part = " * ".join(["2" for i in xrange(0, order)])
+                part = " * ".join(["2" for i in xrange(1, order)])
             if len(result) != 0:
                 result += " + "
             result += part
